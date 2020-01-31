@@ -9,38 +9,40 @@
 	</head>
 
 	<body>
-		<!-- Header -->
-		<div class="header"> 
+
+		<div class="header">
 			<a href="index.html">Hyuk & Young</a>
 		</div>
-		<!-- Navigation bar -->
 		<div class="topnav">
 		  <a href="about.html">About</a>
 		  <a href="vlog.html">Vlog</a>
-		  <a href="#">Reviews</a>
+		  <a href="reviews.html">Reviews</a>
 		  <a href="photos.html">Photos</a>
 		  <a href="recipes.html">Recipes</a>
 		  <a href="https://drive.google.com/open?id=1jICqJ7QEkEN37ttHifXH8RlONnMhIHy0">Drive</a>
 		</div>
 
 		<div class="centered-text">
-		<h1>
-			Welcome to Hyuk & Young's archive!
-		</h1>
-		<p>
-			Here you can learn all about us, our two beautiful cats, Muha and Dali, and what we four of us are up to.
-		</p>
-		<ul>
-			<li>VLOG:</li>
-			<p>Jin's vlog on Youtube. Updated very infrequently. Like & Subscribe!</p>
-			<li>REVIEWS:</li>
-			<p>Various things under scrutiny. (Currently under construction!)</p>
-			<li>PHOTOS:</li>
-			<p>Manually updated photos, mainly featuring Muha and Dali.</p>
-			<li>RECIPES:</li>
-			<p>Jin's recipe notes for various dishes, inspired by famous <a href="https://www.youtube.com/channel/UCyn-K7rZLXjGl7VXGweIlcA">Chef Baek</a>.</p>
-			<li>DRIVE:</li>
-			<p>A link to our shared Google Drive folder. Take a look!</p>
+		<form action="/action_page.php" method="post">
+			<fieldset>
+				<legend>Upload a new recipe!</legend>
+			Recipe Name:<br>
+			<input type="text" name="recipename"><br><br>
+			Category:<br>
+			<select name="category">
+				<option value="Korean">Korean</option>
+				<option value="Japanese">Japanese</option>
+				<option value="Chinese">Chinese</option>
+				<option value="American">American</option>
+			</select><br><br>
+			Ingredients:<br>
+			<textarea name="ingredients" style="width:600px; height: 80px"></textarea>
+			<br><br>
+			Directions:<br>
+			<textarea name="ingredients" style="width:600px; height: 80px"></textarea>
+			<br><br>
+			<input type="submit" value="Submit">
+			</fieldset>
 		</div>
 		
 		<!-- <script>

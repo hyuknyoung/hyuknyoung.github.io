@@ -8,20 +8,9 @@
 	</head>
 	<body>
 
-		<!-- Header -->
-		<div class="header">
-			<a href="index.html">Hyuk & Young</a>
-		</div>
-
-		<!-- Navigation bar -->
-		<div class="topnav">
-		  <a href="about.html">About</a>
-		  <a href="vlog.html">Vlog</a>
-		  <a href="reviews.html">Reviews</a>
-		  <a href="photos.html">Photos</a>
-		  <a href="recipes.html">Recipes</a>
-		  <a href="https://drive.google.com/open?id=1jICqJ7QEkEN37ttHifXH8RlONnMhIHy0">Drive</a>
-		</div>
+		<?
+		php include 'header.php';
+		?>
 		
 
 		<div class="column3">
